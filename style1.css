@@ -1,0 +1,45 @@
+/*attribute selector*/
+input[type="text"]{
+color: red;
+}
+/*child selector*/
+ul > li{
+    color: red;
+}
+/*sibling selector*/
+h1 + p{
+    color: red;
+}
+body{
+    background-color: black;
+}
+h1{
+    color: tomato;
+}
+/*hover pseudo*/
+li:hover{
+    color: lightskyblue;
+}
+/*nth style*/
+li:nth-child(3){
+    color: crimson;
+}
+/*not style*/
+li:not(:first-of-type){
+    text-decoration: underline;
+}
+/*after style*/
+li::after{
+    content: "🚀";
+}
+/*before style*/
+li::before{
+    content: 🚀;
+}
+h2{
+    color: red;
+}
+/*first letter style*/
+li::first-letter{
+    font-size: 200%;    
+}
